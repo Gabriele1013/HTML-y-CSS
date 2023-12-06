@@ -1,0 +1,128 @@
+
+
+/*header{
+    background: green;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #0000ff;
+    line-height: 150%;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: -.2px;
+    margin: 100px 150px 70px 30px;
+}
+
+.hero{
+    height: 300px;
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: #1b2127;
+}
+
+.proyectos {
+    border-top: 10px solid red;
+    border-right: 10px solid green;
+    border-left: 10px solid orange;
+    border-bottom: 10px solid pink;
+    border-top-color: red;
+    border-top-width: 15px;
+    border-top-style: double;
+    border: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+} */
+
+body{
+    background-image: url(https://i.pinimg.com/1200x/db/b4/36/dbb4368aeb480937734932ddcf103151.jpg);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+.logo{
+    margin: 0px;
+    padding: 4px 15px;
+}
+
+.imgA{
+    width: 100%;
+    height: 100%;
+    object-fit: auto;
+}
+
+.header{
+    background-color: #26d2d8;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header ol{
+    height: inherit;
+    display: flex;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+ol{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.container{
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.paddingP{
+    margin: 0 300px;
+    padding: 20px;
+}
+
+.centerO{
+    justify-content: center;
+    text-align: center;
+}
+
+.bg-blue-light{
+    background: #26d2d8;
+}
+
+.bg-white{
+    background: white;
+}
+
+.mt1{
+    margin-top: 90px;
+}
